@@ -4,6 +4,10 @@ $(call inherit-product, vendor/lumina/config/common.mk)
 # Include AOSP audio files
 include vendor/lumina/config/aosp_audio.mk
 
+# Aperture
+PRODUCT_PACKGES += \
+    Aperture
+
 # Default notification/alarm sounds
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.notification_sound=Argon.ogg \
